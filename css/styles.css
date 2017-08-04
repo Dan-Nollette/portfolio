@@ -1,12 +1,22 @@
 body {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 img {
-  max-width: 90%
-
+  padding: 1px;
+  border: 3px solid #111;
+  border-radius: 8px;
+  max-width: 90%;
 }
 
+h1, h2, h3 {
+  background-color: #DDF;
+  color: #0067BC;
+  padding-left: 4px;
+  padding-bottom: 3px;
+  border: 1px solid #00c000;
+  border-radius: 3px; 
+}
 
 .container {
   margin: 2% 5%;
