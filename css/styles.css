@@ -14,11 +14,19 @@ h1, h2, h3 {
   color: #0067BC;
   padding-left: 4px;
   padding-bottom: 3px;
-  border: 1px solid #00c000;
-  border-radius: 3px; 
+  border: 1px solid #0067BC;
+  border-radius: 3px;
 }
 
 .container {
   margin: 2% 5%;
   border: 1px solid #333;
+}
+
+.ol-and-h3 {
+  float:right;
+}
+
+.ul-and-h3 {
+  float: left;
 }
