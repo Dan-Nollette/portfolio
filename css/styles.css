@@ -1,12 +1,22 @@
-body {
-  background-color: #fff;
+.content {
+  border-radius: 15px;
+}
+
+h1 {
+  background-color: orange;
+  color: white;
+  border: 1px solid red;
 }
 
 img {
-  padding: 1px;
-  border: 3px solid #111;
+  border: 2px solid #111;
   border-radius: 8px;
-  max-width: 90%;
+  max-width: 88%;
+}
+
+.project img {
+    border: 1px solid #bbb;
+    margin-top: 15px;
 }
 
 .about-me img {
@@ -26,19 +36,47 @@ img {
 .about-me {
   width: 95%;
   margin: 20px auto 100px;
+  padding: 10px;
   overflow: hidden;
 }
 
+.about-me h2, .about-me h3, .about-me p, .about-me li {
+  color: green;
+}
+
 h1, h2, h3 {
-  background-color: #DDF;
-  color: #0067BC;
   padding-left: 4px;
   padding-bottom: 3px;
-  border: 1px solid #0067BC;
   border-radius: 3px;
 }
+
+h2, h3 {
+  border: 1px solid black;
+}
+
 
 .container {
   margin: 2% 5%;
   border: 1px solid #333;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.project, .about-me {
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+.project {
+  margin: 15px 15px 30px 15px;
+  max-width: 93%;
+  padding: 25px inherit;
+}
+
+.project h2, .project h3 {
+  background-color: #DDF;
+  color: #0067BC;
+  border: 1px solid #0067BC;
 }
