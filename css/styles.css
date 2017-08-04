@@ -9,6 +9,26 @@ img {
   max-width: 90%;
 }
 
+.about-me img {
+    display: inline-block;
+    float: left;
+    max-width: 30%;
+    margin-right: 15px;
+}
+
+#about-text {
+  float: right;
+  align-content: space-around;
+  margin-left: 10px;
+  max-width: 67%;
+}
+
+.about-me {
+  width: 95%;
+  margin: 20px auto 100px;
+  overflow: hidden;
+}
+
 h1, h2, h3 {
   background-color: #DDF;
   color: #0067BC;
@@ -21,12 +41,4 @@ h1, h2, h3 {
 .container {
   margin: 2% 5%;
   border: 1px solid #333;
-}
-
-.ol-and-h3 {
-  float:right;
-}
-
-.ul-and-h3 {
-  float: left;
 }
