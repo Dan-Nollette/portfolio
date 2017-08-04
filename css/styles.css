@@ -80,3 +80,7 @@ h2, h3 {
   color: #0067BC;
   border: 1px solid #0067BC;
 }
+
+.project a {
+ color: orange;
+}
